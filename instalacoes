@@ -1,0 +1,41 @@
+yarn add @react-navigation/native
+yarn add @react-navigation/native-stack
+yarn add react-native-screens react-native-safe-area-context
+
+------------------------------------------
+FIREBASE DE FORMA NATIVA
+1 - cria novo projeto no firebase, desmarca a opção analistic.
+2 - clica no icone do android, para configurar para o android
+--
+em Nome do pacote do Android, vc coloca o packagename do seu projeto, você pode encontrar
+em AndroidManifest.xml
+com.newfriends
+---------
+Agora baixa o arquivo .json - google-services.json
+
+já pode ir instalando o firebase seguindo a documentação do site:
+https://rnfirebase.io/
+
+1 - yarn add @react-native-firebase/app
+o arquivo json que vc baixou coloca em /android/app/
+
+agora dentro de /android/build.gradle em:
+dependencies {
+    classpath 'com.google.gms:google-services:4.3.10'
+}
+vc cola o classpath que pegar na documentação do site
+----------
+
+Por último, execute o plug-in adicionando o seguinte ao seu 
+/android/app/build.gradle arquivo:
+
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services' // <- Colocar apenas essa linha
+
+------------------------------
+agora instala a parte de autenticação
+yarn add @react-native-firebase/auth
+------------------------------
+
+agora instala o DB que será utilizado nesse projeto
+yarn add @react-native-firebase/firestore
