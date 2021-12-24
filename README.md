@@ -1,4 +1,4 @@
-
+<div align="center">
 	<h1 align="center">  Hey Chat </h1>
 	<p>Ajude, colabore, faça networking</p>
 	<p> screenshot das telas do projeto </p>
