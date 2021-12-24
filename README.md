@@ -2,6 +2,7 @@
 	<h1 align="center">  Hey Chat </h1>
 	<p>Ajude, colabore, faça networking</p>
 	<p> screenshot das telas do projeto </p>
+</div>	
 
 ![home](https://user-images.githubusercontent.com/65264902/147373050-1ea6748b-e7ae-4e40-b2ab-059a03cbde47.png)
 ![messages](https://user-images.githubusercontent.com/65264902/147373059-e8e917e8-6623-487b-aa61-d3faacbca1cd.png)
