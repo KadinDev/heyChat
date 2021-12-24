@@ -1,1 +1,1 @@
-<h1 style={text-align: center, color: red}> HeyChat </h1>
+<h1 style={align-items: center}> HeyChat </h1>
